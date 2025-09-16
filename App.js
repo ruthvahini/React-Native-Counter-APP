@@ -9,6 +9,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+    <Stack.Screen name="Counter" component={CounterScreen} />
+
         <Stack.Screen
           name="Counter"
           component={CounterScreen}
